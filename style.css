@@ -1,0 +1,111 @@
+*{
+  padding:0;
+  margin: 0;
+  background-color: black;
+}
+#pregame{
+  font-family: monospace;
+  letter-spacing: 3px;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  display: block;
+}
+#title{
+  color: #badc58;
+  font-size: 45px;
+  font-family: monospace;
+  letter-spacing: 15px;
+  position: absolute;
+  left: 40%;
+}
+#game{
+  font-family: monospace;
+  letter-spacing: 3px;
+  color: white;
+  /* border-color: white; */
+}
+#word{
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  width: 38%;
+  font-size: 30px;
+  border:0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  font-family: monospace;
+}
+#word:focus{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    font-size: 35px;
+    font-family: monospace;
+    border:0;
+    padding-left: 10px;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    color: #48dbfb;
+    font-weight: 500px;
+    padding: 7px 0;
+    background: transparent;
+  }
+#values{
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  font-size: 30px;
+  color: #f9ca24;
+}
+#wrongs{
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  font-size: 20px;
+  color: #7ed6df;
+}
+#message{
+  position:fixed;
+  top: 50%;
+  left: 55%;
+  z-index: 30;
+  font-size: 25px;
+  color: #ff7979;
+}
+.figure-container {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  fill: transparent;
+  stroke: white;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  border: 3px solid #ff9ff3;
+  border-radius: 25%;
+}
+
+
+#head{
+  display: none;
+}
+#body{
+  display: none;
+}
+#oneA{
+  display: none;
+}
+#twoA{
+  display: none;
+}
+#oneL{
+  display: none;
+}
+#twoL{
+  display: none;
+}
